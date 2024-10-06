@@ -1,4 +1,4 @@
-package com.sydorenko.banking_solution;
+package com.sydorenko.bankingsolution;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

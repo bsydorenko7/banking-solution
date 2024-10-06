@@ -1,4 +1,4 @@
-package com.sydorenko.banking_solution;
+package com.sydorenko.bankingsolution;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
