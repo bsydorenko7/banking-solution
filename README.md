@@ -58,12 +58,12 @@ in the *postman_collection* directory:
 - Use the imported collection to test the API endpoints.
 
 ## Tests
-3. **Build the project with Maven:**
+1. **Build the project with Maven:**
    ```bash
    mvn tests
 
-4. **Run the application:**
+2. **Run the application:**
    ```bash
    mvn clean verify
 
-4. **The report will be generated in the target/site/jacoco directory.**
+3. **The report will be generated in the target/site/jacoco directory.**
