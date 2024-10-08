@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import jakarta.validation.constraints.NotNull;
 
 import java.math.BigDecimal;
 import java.util.UUID;
@@ -19,9 +20,11 @@ public class Account {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column(name = "account_owner_name")
+    @NotNull
+    @Column(name = "account_owner_name", nullable = false)
     private String accountOwnerName;
 
-    @Column(name = "balance")
+    @NotNull
+    @Column(name = "balance", nullable = false)
     private BigDecimal balance;
 }
