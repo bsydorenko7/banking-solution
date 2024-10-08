@@ -1,4 +1,4 @@
-package com.sydorenko.bankingsolution.mapper.exception;
+package com.sydorenko.bankingsolution.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

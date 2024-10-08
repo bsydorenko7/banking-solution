@@ -1,6 +1,6 @@
 package com.sydorenko.bankingsolution.service.validation;
 
-import com.sydorenko.bankingsolution.mapper.exception.BadRequestException;
+import com.sydorenko.bankingsolution.exception.BadRequestException;
 
 public class PageSizeValidator {
 

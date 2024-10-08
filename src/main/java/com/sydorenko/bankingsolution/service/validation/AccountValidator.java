@@ -1,7 +1,7 @@
 package com.sydorenko.bankingsolution.service.validation;
 
 import com.sydorenko.bankingsolution.entity.Account;
-import com.sydorenko.bankingsolution.mapper.exception.InsufficientFundsException;
+import com.sydorenko.bankingsolution.exception.InsufficientFundsException;
 import lombok.extern.slf4j.Slf4j;
 
 import java.math.BigDecimal;

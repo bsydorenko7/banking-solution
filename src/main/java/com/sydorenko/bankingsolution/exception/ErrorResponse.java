@@ -1,4 +1,4 @@
-package com.sydorenko.bankingsolution.mapper.exception;
+package com.sydorenko.bankingsolution.exception;
 
 import lombok.Getter;
 

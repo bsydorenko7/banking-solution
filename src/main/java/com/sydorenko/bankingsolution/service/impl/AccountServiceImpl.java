@@ -2,9 +2,9 @@ package com.sydorenko.bankingsolution.service.impl;
 
 import com.sydorenko.bankingsolution.dto.AccountDto;
 import com.sydorenko.bankingsolution.entity.Account;
-import com.sydorenko.bankingsolution.mapper.exception.AccountNotFoundException;
+import com.sydorenko.bankingsolution.exception.AccountNotFoundException;
 import com.sydorenko.bankingsolution.mapper.AccountMapper;
-import com.sydorenko.bankingsolution.mapper.exception.BadRequestException;
+import com.sydorenko.bankingsolution.exception.BadRequestException;
 import com.sydorenko.bankingsolution.repository.AccountRepository;
 import com.sydorenko.bankingsolution.service.AccountService;
 import lombok.extern.slf4j.Slf4j;
